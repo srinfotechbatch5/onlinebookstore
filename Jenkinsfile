@@ -10,11 +10,7 @@ node {
                bat 'mvn clean install'
         }
 
-        stage('Test') {
-            
-               bat 'mvn test'
-        }
-
+      
         stage('Published Artifacts') {
           
               archiveArtifacts artifacts: 'target/*.war', followSymlinks: false
