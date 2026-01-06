@@ -3,16 +3,15 @@ pipeline{
 agent any
 
 stages{
-stage("build batch5){
+stage("Clone the Project"){
 
 }
 }
 }
 
-stages{
-stage("build"){
+stage("Build stage"){
 
 }
-}
+
 
 
