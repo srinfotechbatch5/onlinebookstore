@@ -9,4 +9,10 @@ stage("build batch5){
 }
 }
 
+stages{
+stage("build"){
+
+}
+}
+
 
