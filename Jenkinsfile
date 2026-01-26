@@ -7,5 +7,17 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+				stage("build Developer3") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
+				stage("test the Project") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
         }
 }
