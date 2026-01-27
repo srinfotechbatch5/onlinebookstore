@@ -9,6 +9,7 @@
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>onlinebookstore</finalName>
+		<finalName>SRINFOETCH ONLINE Book Store</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -72,4 +73,5 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+
 </project>
