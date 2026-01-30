@@ -8,6 +8,13 @@ pipeline {
               	    }  
          	    } 
 				
+				stage("Build") {  
+           	    steps {  
+              	    echo "build the project" 
+              	    echo "repo build successfully"  
+              	    }  
+         	    } 
+				
 
         }
 }
