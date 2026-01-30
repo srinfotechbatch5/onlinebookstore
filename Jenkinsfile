@@ -15,6 +15,13 @@ pipeline {
               	    }  
          	    } 
 				
+				stage("Test") {  
+           	    steps {  
+              	    echo "build the project" 
+              	    echo "repo build successfully"  
+              	    }  
+         	    } 
+				
 
         }
 }
